@@ -1,8 +1,12 @@
-body {
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #ffffff; */
+}
+.housing{
+    height: 100%;
+    width: 100%;
     background-color: #ffffff;
-    height: 100vh;
 }
 
 .cir1 {
@@ -40,7 +44,7 @@ body {
     background:  linear-gradient(180deg, rgba(116, 0, 228, 0.94) 0%, rgba(0, 0, 239, 0.62) 100%);
     border-radius: 50%;
     position: absolute;
-    top: 350;
+    top: 700px;
     left: 800px;
     float: none;
 }
@@ -114,10 +118,13 @@ body {
 }
 .footer{
     display: flex;
+    position: absolute;
     background: rgba(35, 0, 69, 0.94);
     height: 80px;
-    margin-top: 150px;
+    top: 800px;
     width: 100%;
+    justify-content: flex-start;
+    align-items: center;
 }
 .footer .para2{
     padding-left: 6%;
@@ -126,4 +133,135 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
+}
+
+@media screen and (max-width:1024px){
+    .cir1 {
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(180deg, rgba(116, 0, 228, 0.94) 0%, rgba(0, 0, 239, 0.62) 100%);
+        transform: rotate(-180deg);
+        border-radius: 0 250px 0 0;
+        position: absolute;
+        left: 608px;
+    }
+    .cir2{
+        background:  linear-gradient(180deg, rgba(116, 0, 228, 0.94) 0%, rgba(0, 0, 239, 0.62) 100%);
+        border-radius: 50%;
+        position: absolute;
+        float:none;
+        width: 23.55px;
+        height: 24.51px;
+        left: 400px;
+        top: 100px;  
+    }
+    .cir3{
+        background:  linear-gradient(180deg, rgba(116, 0, 228, 0.94) 0%, rgba(0, 0, 239, 0.62) 100%);
+        border-radius: 50%;
+        position: absolute;
+        float:none;
+        width: 111.98px;
+        height: 115.82px;
+        left: 500px;
+        top: 300.2px;
+    }
+    .cir4{
+        background:  linear-gradient(180deg, rgba(116, 0, 228, 0.94) 0%, rgba(0, 0, 239, 0.62) 100%);
+        border-radius: 50%;
+        position: absolute;
+        float: none;
+        width: 13.46px;
+        height: 13.94px;
+        left: 350px;
+        top: 424.56px;  
+    }
+    .nav {
+        margin-left: 6%;
+    }
+    
+    .nav .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .jumbotron{
+        margin-left: 6%;
+    }
+    
+    .jumbotron .Head{
+        width: 299px;
+        height: 111px;
+        position: static;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        padding-right: 83px;
+    }
+    .jumbotron .para{
+        width: 134px;
+        height: 38px;
+        position: static;
+        font-family: Lora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 19px;
+        top: 616px;
+    }
+    .img1{
+        position: absolute;
+        width: 146.01px;
+        height: 97.07px;
+        left: 450px;
+        top: 100px;
+    }
+    .img2{
+        z-index: 3;
+        position: absolute;
+        width: 146.01px;
+        height: 97.48px;
+        left: 500px;
+        top: 160px;
+    }
+    .img3{
+        z-index: 2;
+        position: absolute;
+        width: 146.01px;
+        height: 109.71px;
+        left: 370px;
+        top: 180px;
+    }
+    .img4{
+        z-index: 5;
+        position: absolute;
+        width: 146.01px;
+        height: 97.07px;
+        left: 490px;
+        top: 250px;
+    }
+    .img5{
+        z-index: 4;
+        position: absolute;
+        width: 123.17px;
+        height: 81.98px;
+        left: 400px;
+        top: 280px;  
+    }
+    .footer{
+        display: flex;
+        background: rgba(35, 0, 69, 0.94);
+        height: 100px;
+        justify-content: center;
+        position: absolute;
+        top: 450px;
+    }
+    .footer .para2{
+        font-family: lora;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 19px;
+    }
 }
