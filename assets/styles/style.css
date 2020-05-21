@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.cir1 {
+    width: 180px;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(116, 0, 228, 0.94) 0%, rgba(0, 0, 239, 0.62) 100%);
+    transform: rotate(-180deg);
+    border-radius: 0 250px 0 0;
+    position: relative;
+    float: right;
+}
+.cir2{
+    width:30px ;
+    height:30px ;
+    background:  linear-gradient(180deg, rgba(116, 0, 228, 0.94) 0%, rgba(0, 0, 239, 0.62) 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 149px;
+    left:720px;
+    float:none;
+}
+.cir3{
+    width: 250px;
+    height: 250px;
+    background:  linear-gradient(180deg, rgba(116, 0, 228, 0.94) 0%, rgba(0, 0, 239, 0.62) 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 450px;
+    left: 1000px;
+    float:none;
+}
+.cir4{
+    width: 30px;
+    height: 30px;
+    background:  linear-gradient(180deg, rgba(116, 0, 228, 0.94) 0%, rgba(0, 0, 239, 0.62) 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 350;
+    left: 800px;
+    float: none;
+}
+
+.nav {
+    margin-left: 5%;
+}
+
+.nav .logo {
+    width: 220px;
+    height: 220px;
+}
+
+.jumbotron{
+    margin-left: 6%;
+}
+
+.jumbotron .Head{
+    height: 220px;
+    width: 670px;
+    position: static;
+    font-family: montserrat;
+    font-size: 60px;
+    font-weight: 500px;
+}
+.jumbotron .para{
+    width: 670px;
+    height: 40px;
+    position: static;
+    font-family: lora;
+    font-size: 30px;
+}
+.img1{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 105px;
+    left: 835px;
+}
+.img2{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top:223px ;
+    left: 1037px;
+    z-index: 3;
+}
+.img3{
+    width: 300px;
+    height: 225px;
+    position: absolute;
+    top:250px ;
+    left: 745px;
+    z-index: 2;
+}
+.img4{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 385px;
+    left: 986px;
+    z-index: 5;
+}
+.img5{
+    width: 256px;
+    height: 170px;
+    position: absolute;
+    top: 450px;
+    left: 788px;
+    z-index: 4;
+}
+.footer{
+    display: flex;
+    background: rgba(35, 0, 69, 0.94);
+    height: 80px;
+    margin-top: 150px;
+    width: 100%;
+}
+.footer .para2{
+    padding-left: 6%;
+    font-family: lora;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
